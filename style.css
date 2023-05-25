@@ -118,6 +118,33 @@ footer p {
 }
 
 //responsive for phones
-//@media only screen and (max-width: 768px){
+@media only screen and (max-width: 320px){
   
-//}
+  header{
+    padding: 1.5em;
+    flex-flow: column wrap;
+    align-items: flex-start;
+  }
+  
+  .icon{
+    display: none;
+  }
+  
+  h1 {
+    font-size: 33px;
+  }
+  
+  p {
+    font-size: 15px;
+  }
+    
+  article{
+    flex-direction: column;
+  }  
+}
+
+//responsive for phones
+@media only screen and (min-width:321px) and (max-width:768px){
+
+}
+
